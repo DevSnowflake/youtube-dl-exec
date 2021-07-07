@@ -1,5 +1,5 @@
 /* eslint-disable */
-declare module 'youtube-dl-exec' {
+declare module '@devsnowflake/youtube-dl-exec' {
     import { ExecaChildProcess, Options } from 'execa';
 
     type YtFormat = {
