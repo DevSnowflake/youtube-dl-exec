@@ -13,13 +13,13 @@
 ## Install
 
 ```bash
-$ npm install youtube-dl-exec --save
+$ npm install @devsnowflake/youtube-dl-exec --save
 ```
 
 ## Usage
 
 ```js
-const youtubedl = require('youtube-dl-exec')
+const youtubedl = require('@devsnowflake/youtube-dl-exec')
 
 youtubedl('https://example.com', {
   dumpSingleJson: true,
@@ -65,7 +65,7 @@ Any option provided here will passed to [execa#options](https://github.com/sindr
 It's the same than the main method but it will return the raw subprocess object:
 
 ```js
-const youtubedl = require('youtube-dl-exec')
+const youtubedl = require('@devsnowflake/youtube-dl-exec')
 const fs = require('fs')
 
 const subprocess = youtubedl.raw('https://example.com', { dumpSingleJson: true })
